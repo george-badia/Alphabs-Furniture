@@ -1,5 +1,9 @@
 # Alphabs Furniture Website Cart
 
+### Created By:
+
+George Badia
+
 ## Description
 
 This project is a furniture website cart application built with React. It provides a user interface for browsing and purchasing furniture items online.
