@@ -1,0 +1,90 @@
+.product_details{
+    display: flex;
+    gap: 30px;
+    padding: 80px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.detail_left img{
+    width: 460px;
+}
+.detail_right h3{
+    font-size: 34px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #9e9e9e;
+}
+.detail_right .product-price{
+    font-size: 22px;
+    color: #ff7518;
+    margin-top: 20px;
+}
+.detail_right .desc{
+    font-size: 20px;
+    color: #666;
+    margin-top: 15px;
+}
+.product_qty_cart{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.p_qty{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.p_qty .qty{
+    font-size: 20px;
+    font-weight: 600;
+}
+.p_qty .qty_amt{
+    padding: 10px;
+    border: 1px solid #666;
+    font-size: 16px;
+    font-weight: 600;
+}
+.detail_right button{
+    padding: 1rem 3.6rem;
+    border: none;
+    background: #ff7518;
+    color: #fff;
+    border-radius: 30px;
+}
+.tab_container{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-top: -50px;
+}
+.tab_header{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 20px;
+}
+.tab_header button{
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #666;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+.tab_header button.active{
+    color: #ff7518;
+    border-bottom: 2px solid #ff7518;
+}
+.tab_content{
+    padding: 20px 0;
+}
+.tab__pane{
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
