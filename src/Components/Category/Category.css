@@ -1,0 +1,26 @@
+.category_menu{
+    display: flex;
+    gap: 20px;
+    z-index: 3;
+    padding-top: 105vh;
+    height: 25vh;
+    flex-direction: column;
+    padding-left: 40px;
+}
+.category_menu_list{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    cursor: pointer;
+}
+.category_menu_list_item{
+    padding: 0.9rem 3rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.category_menu_list_item:hover{
+    background: #000;
+    color: #fff;
+    border: none;
+}
